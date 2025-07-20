@@ -4,20 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Influencer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./css/primary.css" />
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <header class="max-w-6xl">
-      <nav class="flex justify-between align-center">
+      <nav class="flex justify-between items-center">
         <div class="md:hidden xl:hidden lg:hidden sm:inline">
           <img src="./logos/menu1.svg" alt="" />
         </div>
         <div class="cursor-pointer">
-          <h1>Influencer products</h1>
+          <h1 class="text-bold">Influencer products</h1>
         </div>
-        <ul class="flex">
+        <ul class="flex hidden md:flex xl:flex lg:flex xl:flex">
           <li><a href="#">Home</a></li>
           <li><a href="#">products</a></li>
           <li><a href="#">Sign Up</a></li>
@@ -26,10 +33,128 @@
             <a href="#"><img src="./images/search.png" alt="search" /></a>
           </li>
           <li>
-            <a href="#"><img src="./images/cart.png" alt="cart" /></a>
+            <a class="inline" href="#"
+              ><img src="./images/cart.png" alt="cart"
+            /></a>
           </li>
         </ul>
       </nav>
     </header>
+    <!-- hero section -->
+    <div
+      class="hero flex justify-between items-center md:flex-row lg:flex-row xl:flex-row flex-col"
+    >
+      <div class="w-xl">
+        <h1 class="camtext font-bold text-5xl">
+          Start your Journey as Influencer
+        </h1>
+        <p class="text-[0.89rem]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
+          vestibulum sed scelerisque eros. Lectus faucibus.
+        </p>
+        <button class="btn cursor-pointer">
+          Preebook now <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <div class="camera w-md">
+        <img src="./images/main-camera.png" alt="camera" />
+      </div>
+    </div>
+    <!-- main section design -->
+    <main class="w-[1440px]">
+      <div
+        class="imgal grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 2xl:grid-cols-7 place-items-center gap-[20px]"
+      >
+        <img src="./logos/Alibaba.svg" alt="" />
+        <img src="./logos/Amazon.svg" alt="" />
+        <img src="./logos/Daraz.svg" alt="" />
+        <img src="./logos/Ebay.svg" alt="" />
+        <img src="./logos/Rakuten.svg" alt="" />
+        <img src="./logos/Walmart.svg" alt="" />
+        <img src="./logos/Target.svg" alt="" />
+      </div>
+      <!-- cards -->
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-[10px] place-items-center"
+      >
+        <div class="card">
+          <img src="./images/tripod.png" alt="" />
+          <h3 class="text-[28px] font-medium m-[30px]">Flex Tripod</h3>
+          <h4 class="text-2xl">$50.48</h4>
+          <p class="text-[14px]">Worldwide shifting available</p>
+          <p class="font-medium">Buyers protection possible!</p>
+        </div>
+        <div class="card">
+          <img src="./images/tripod.png" alt="" />
+          <h3 class="text-[28px] font-medium m-[30px]">Flex Tripod</h3>
+          <h4 class="text-2xl">$50.48</h4>
+          <p class="text-[14px]">Worldwide shifting available</p>
+          <p class="font-medium">Buyers protection possible!</p>
+        </div>
+        <div class="card">
+          <img src="./images/tripod.png" alt="" />
+          <h3 class="text-[28px] font-medium m-[30px]">Flex Tripod</h3>
+          <h4 class="text-2xl">$50.48</h4>
+          <p class="text-[14px]">Worldwide shifting available</p>
+          <p class="font-medium">Buyers protection possible!</p>
+        </div>
+        <div class="card">
+          <img src="./images/tripod.png" alt="" />
+          <h3 class="text-[28px] font-medium m-[30px]">Flex Tripod</h3>
+          <h4 class="text-2xl">$50.48</h4>
+          <p class="text-[14px]">Worldwide shifting available</p>
+          <p class="font-medium">Buyers protection possible!</p>
+        </div>
+        <div class="card">
+          <img src="./images/tripod.png" alt="" />
+          <h3 class="text-[28px] font-medium m-[30px]">Flex Tripod</h3>
+          <h4 class="text-2xl">$50.48</h4>
+          <p class="text-[14px]">Worldwide shifting available</p>
+          <p class="font-medium">Buyers protection possible!</p>
+        </div>
+        <div class="card">
+          <img src="./images/tripod.png" alt="" />
+          <h3 class="text-[28px] font-medium m-[30px]">Flex Tripod</h3>
+          <h4 class="text-2xl">$50.48</h4>
+          <p class="text-[14px]">Worldwide shifting available</p>
+          <p class="font-medium">Buyers protection possible!</p>
+        </div>
+        <div class="card">
+          <img src="./images/tripod.png" alt="" />
+          <h3 class="text-[28px] font-medium m-[30px]">Flex Tripod</h3>
+          <h4 class="text-2xl">$50.48</h4>
+          <p class="text-[14px]">Worldwide shifting available</p>
+          <p class="font-medium">Buyers protection possible!</p>
+        </div>
+        <div class="card">
+          <img src="./images/tripod.png" alt="" />
+          <h3 class="text-[28px] font-medium m-[30px]">Flex Tripod</h3>
+          <h4 class="text-2xl">$50.48</h4>
+          <p class="text-[14px]">Worldwide shifting available</p>
+          <p class="font-medium">Buyers protection possible!</p>
+        </div>
+        <div class="card">
+          <img src="./images/tripod.png" alt="" />
+          <h3 class="text-[28px] font-medium m-[30px]">Flex Tripod</h3>
+          <h4 class="text-2xl">$50.48</h4>
+          <p class="text-[14px]">Worldwide shifting available</p>
+          <p class="font-medium">Buyers protection possible!</p>
+        </div>
+        <div class="card">
+          <img src="./images/tripod.png" alt="" />
+          <h3 class="text-[28px] font-medium m-[30px]">Flex Tripod</h3>
+          <h4 class="text-2xl">$50.48</h4>
+          <p class="text-[14px]">Worldwide shifting available</p>
+          <p class="font-medium">Buyers protection possible!</p>
+        </div>
+        <div class="card">
+          <img src="./images/tripod.png" alt="" />
+          <h3 class="text-[28px] font-medium m-[30px]">Flex Tripod</h3>
+          <h4 class="text-2xl">$50.48</h4>
+          <p class="text-[14px]">Worldwide shifting available</p>
+          <p class="font-medium">Buyers protection possible!</p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background: #aaaaaa23;
+}
 /* header */
 header {
   margin: 20px auto;
@@ -12,4 +15,41 @@ header {
 nav ul li {
   margin-right: 5px;
   padding: 10px 15px;
+}
+.hero {
+  max-width: 1440px;
+  margin: 20px auto;
+  height: 600px;
+}
+.camera {
+  background: url(../logos/camera.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.camtext {
+  color: #3a3a3a;
+}
+.btn {
+  background: #e02c6d;
+  padding: 10px 15px;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 2rem;
+}
+main {
+  margin: 0 auto;
+}
+.imgal {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+  margin: 40px 0px;
+}
+.card {
+  background: #fff;
+  display: block;
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
